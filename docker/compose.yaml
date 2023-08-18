@@ -1,0 +1,30 @@
+services:
+  tomcat:
+    image: tomcat_webapp
+    container_name: tomcat-container
+    ports:
+      - 80:8080
+    restart: on-failure
+    env_file:
+      - env
+    depends_on:
+      - postgresql
+
+
+  postgresql:
+    image: postgres:latest
+    container_name: postgres-container
+    ports:
+      - 5455:5455
+    volumes:
+      - pg_data:/var/lib/postgresql
+    env_file:
+      - env
+    environment:
+      PGPORT: 5455
+      ALLOW_IP_RANGE: "0.0.0.0/0"
+    restart: always
+
+volumes:
+  pg_data:
+
