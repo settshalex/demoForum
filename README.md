@@ -62,6 +62,6 @@ create unique index users_id_uindex
 create unique index users_email_uindex
     on users (email);
 
-INSERT INTO public.users (id, email, password) VALUES (DEFAULT, 'arctgalex@gmail.com'::varchar(300), '$2a$10$w2JqK0lto3IiAFe0tNgMX.EOEfLBGl6H8jEaYOmnBWERYanvdi7qG'::varchar(200))
+INSERT INTO public.users (id, email, password) VALUES (DEFAULT, 'aaaa@gmail.com'::varchar(300), '$2a$10$w2JqK0lto3IiAFe0tNgMX.EOEfLBGl6H8jEaYOmnBWERYanvdi7qG'::varchar(200))
 </pre>
 
