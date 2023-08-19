@@ -58,7 +58,7 @@ alter table threads_posts
 
 create unique index users_id_uindex
     on users (id);
-
+ 
 create unique index users_email_uindex
     on users (email);
 
