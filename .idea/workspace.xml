@@ -10,7 +10,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6ab1ba2-8260-416a-9366-80be54544fc1" name="Changes" comment="implement dockerfile&#10;created first servlet">
+    <list default="true" id="b6ab1ba2-8260-416a-9366-80be54544fc1" name="Changes" comment="create session start">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/env" beforeDir="false" afterPath="$PROJECT_DIR$/docker/env" afterDir="false" />
@@ -208,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692905540249</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create session start">
+      <option name="closed" value="true" />
+      <created>1693767576473</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693767576473</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +235,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="implement dockerfile&#10;created first servlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement dockerfile&#10;created first servlet" />
+    <MESSAGE value="create session start" />
+    <option name="LAST_COMMIT_MESSAGE" value="create session start" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
