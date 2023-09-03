@@ -4,6 +4,7 @@
     <title>Title</title>
 </head>
 <body>
+<h1><%=request.getAttribute("error")%></h1>
 <form action="login" method="post">
     Name:<input type="text" name="email"><br>
     Password:<input type="password" name="password"><br>
